@@ -1,0 +1,89 @@
+/* Add your CSS styles here */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.grid-container {
+  margin: 20px 0;
+}
+
+.container {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.cell {
+  background-color: white;
+  border: 1px solid #000;
+}
+
+.cell:hover {
+  cursor: pointer;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.random {
+  background-color: #ff9800;
+}
+
+.eraser {
+  background-color: #555555;
+}
+
+.slider {
+  width: 100%;
+}
+
+input[type="color"] {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  height: 30px;
+  width: 50px;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 5px;
+}
+
+.indicator {
+  margin-top: 10px;
+  font-weight: bold;
+}
